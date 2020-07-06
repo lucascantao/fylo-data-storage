@@ -15,6 +15,8 @@
   </style>
 
   <link rel="stylesheet" href="style.css">
+  
+  <link rel="stylesheet" href="responsive.css">
 
 </head>
 <body>
@@ -41,14 +43,30 @@
     <div class="stgBx">
       <div class="content">
         <div class="header">
-          <h4>You’ve used 815 GB of your storage</h4>
+          <h4>You’ve used <strong>815 GB</strong> of your storage</h4>
+        </div>
+        <div class="progressBar">
+          <div class="fill">
+            <div class="pointer">
+
+            </div>
+          </div>
         </div>
         <div class="counter">
-          <h4>185 GB Left</h4>
+          <div class="text">
+            <h4>185</h4> <p>GB LEFT</p>
+          </div>
+          <span class="indicator">
+            
+          </span>
         </div>
         <div class="lenght">
-          <h4>0 GB</h4> 
-          <h4>1000 GB</h4>
+          <div class="start">
+            <p class="num">0</p> <h4 class="GB"> GB</h4> 
+          </div>
+          <div class="end">
+            <p class="num">1000</p><h4 class="GB"> GB</h4>
+          </div>
         </div>
       </div>
     </div>
