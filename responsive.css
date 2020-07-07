@@ -13,8 +13,8 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-
-		margin : auto 10vw;
+		background-size: cover;
+		
 	}
 
 	.container {
@@ -24,11 +24,103 @@
 		justify-content: center;
 		align-items: center;
 
+		width: 80%;
+		min-height: 65vh;
+
+		
+
 		
 	}
 
-	.stgBx {
+	.container .imgBx {
+
+		height: 240px;
 		width: 100%;
+		border-radius: 20px 130px 20px 20px;
+	}
+
+	.container .imgBx .content {
+		width: 60%;
+	}
+
+	.container .imgBx .content span img{
+		
+		width: 170px;
+		height: 50px;
+	}
+
+	.container .imgBx .content .icons a {
+		padding: 10px;
+	}
+
+	.container .imgBx .content .icons a img {
+		height: 30px;
+		width: 35px;
+	}
+	
+	.container .stgBx {
+
+		margin-top: 20px;
+		height: 180px;
+		width: 100%;
+		border-radius: 18px;
+	}
+
+	.container .stgBx .content .header h4{
+		text-align: center;
+		font-size: 16px;
+	}
+	
+	.container .stgBx .content .counter {
+		
+		right: 0%;
+		left: 0%;
+
+		top: 95%;
+		
+
+		
+	}
+
+	.container .stgBx .content .counter .text {
+		border-radius: 10px;
+		height: 80px;
+		width: 190px;
+	}
+
+	.container .stgBx .content .counter .text h4 {
+		font-size: 38px;
+	}
+
+	.container .stgBx .content .counter .text p {
+		font-size: 14px;
+		font-weight: 800;
+	}
+
+	.container .stgBx .content .counter:after {
+		border: 0;
+	}
+
+
+
+	.container .stgBx .content .progressBar {
+		height: 20px;
+		border-radius: 10px;
+	}
+
+	.container .stgBx .content .progressBar .fill .pointer {
+		height: 10px;
+		width: 10px;
+	}
+
+	.num {
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.GB {
+		font-size: 16px;
+		font-weight: 600;
 	}
 
 	

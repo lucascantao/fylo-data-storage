@@ -25,7 +25,7 @@ body
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	min-height: 100vh;
 	background: url("images/bg-desktop.png");
 	background-repeat: no-repeat;
 	background-color: hsl(229, 57%, 11%);
@@ -163,13 +163,13 @@ h4 {
 	align-items: center;
 	justify-content:flex-end;
 
-	height: 7px;
+	height: 70%;
 	width: 81.5%;
 
 	margin: auto 2px;
 
 	border-radius: 5px;
-	background-image: linear-gradient(to right, yellow, red);
+	background-image: linear-gradient(to right, #ece, #fad 10%, #e7e 90%);
 }
 .container .stgBx .content .progressBar .fill .pointer 
 {
