@@ -34,19 +34,33 @@
 
 	.container .imgBx {
 
-		height: 240px;
+		height: 210px;
 		width: 100%;
 		border-radius: 20px 130px 20px 20px;
 	}
 
 	.container .imgBx .content {
 		width: 60%;
+		align-items: center;
 	}
 
 	.container .imgBx .content span img{
 		
 		width: 170px;
 		height: 50px;
+	}
+
+	.container .imgBx .content span {
+
+		width: 100%;
+		margin-left: 80px;
+
+	}
+
+	.container .imgBx .content .icons {
+
+		margin-left: 60px;
+
 	}
 
 	.container .imgBx .content .icons a {
@@ -68,7 +82,8 @@
 
 	.container .stgBx .content .header h4{
 		text-align: center;
-		font-size: 16px;
+		font-size: 14px;
+		
 	}
 	
 	.container .stgBx .content .counter {
@@ -76,7 +91,7 @@
 		right: 0%;
 		left: 0%;
 
-		top: 95%;
+		top: 90%;
 		
 
 		
@@ -89,7 +104,8 @@
 	}
 
 	.container .stgBx .content .counter .text h4 {
-		font-size: 38px;
+		font-size: 40px;
+		font-weight: 800;
 	}
 
 	.container .stgBx .content .counter .text p {
